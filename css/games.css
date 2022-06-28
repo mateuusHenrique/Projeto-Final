@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+html{
+    background-color:darkgray ;
+    font-family:Tahoma;
+}
+li{
+    font-family:'Lucida Sans Unicode'
+}
+
+header{
+    background-color: rgba(156, 20, 20, 0.753);
+}
+   
+    nav ul{
+        box-sizing: border-box;
+        padding: 15px;
+        list-style-type: none;
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: white;
+    }
+    nav ul li a:hover{
+        cursor: pointer;
+        color: black;
+        border-bottom: 2px solid black;
+    }
+    img{
+        width: 500px;
+        height: auto;
+    }
+    p{
+    text-align: justify;
+}
+h2{
+    text-align: justify;
+    color: rgb(59, 5, 70);
+}
